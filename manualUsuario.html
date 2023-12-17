@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio de Mercado Inmobiliario - Statedata</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #495057;
+        }
+
+        header {
+            background: url('tu_imagen.jpg') center/cover no-repeat;
+            color: #000000;
+            text-align: center;
+            padding: 1em 0;
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .intro-section {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            margin-top: 20px;
+            margin-left: 200px;  /* Ajusta el margen izquierdo según tus preferencias */
+            margin-right: 200px; /* Ajusta el margen derecho según tus preferencias */
+        }
+
+        .intro-section h2 {
+            font-size: 2em;
+            color: #555555;
+   
+        }
+
+        .district-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-left: 30px;  /* Ajusta el margen izquierdo según tus preferencias */
+            margin-right: 30px; /* Ajusta el margen derecho según tus preferencias */
+        }
+
+        .district-box {
+            width: 18%;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .district-box img {
+            width: 100%;
+            height: 70%;
+            object-fit: cover;
+            border-bottom: 2px solid #000000;
+        }
+
+        .district-box h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #575757;
+        }
+
+        .study-section {
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 40px auto;
+            padding: 40px;
+            max-width: 800px;
+        }
+
+        .study-section h2 {
+            margin-top: 0;
+            font-size: 2.5em;
+            color: #757575;
+        }
+
+        .study-section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .study-section img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        .section-heading {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .additional-section {
+            background-color: #f8f9fa;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 40px auto;
+            padding: 40px;
+            max-width: 800px;
+        }
+
+        .additional-section h2 {
+            margin-top: 0;
+            font-size: 2.5em;
+            color: #737373;
+        }
+
+        .additional-section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .separation-line {
+            border-top: 0.5px solid #000000;
+            margin: 20px 0;
+        }
+
+        .custom-button {
+            width: 100%;
+            height: 200px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2em; /* Reducido el tamaño de la fuente */
+            font-weight: bold;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .custom-button:hover {
+            transform: scale(1.05);
+        }
+                /* Estilos aquí... */
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1><a href="index.html" style="color: black;">StateData</a></h1>
+            <p>Análisis del Mercado Inmobiliario</p>
+        </div>
+    </header>
+    <hr class="separation-line">
+
+
+    <section class="container mt-5">
+        <h2 class="text-center mb-4">Manual de Usuario <i class="fas fa-book"></i></h2>
+        <p class="lead mb-5">Bienvenido al manual de usuario de Statedata. A continuación, se detallan los pasos para aprovechar al máximo nuestro software:</p>
+
+        <div class="row">
+            <div class="col-md-6">
+                
+                
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <ol class="lead">
+                            <li>Registrese y obtenga créditos en <strong>Google Cloud</strong><i class="fas fa-search"></i></li>
+    
+                            <li>Descargue el <strong>dataset</strong> proporcionado. Puede descargarlo <a href="https://www.kaggle.com/datasets/lorentzyeung/price-paid-data-202304" target="_blank"><i class="fas fa-filter"></i> aquí</a>.</li>
+    
+                            <li>Cree un <strong>bucket</strong> dentro de <strong>Cloud Storage</strong> de clase <strong>standard</strong> y cargue ahi el <strong>dataset</strong> 
+                                junto con los <strong>ficheros  .py</strong><i class="fas fa-chart-bar"></i></li>
+    
+                            <li>Cree un <strong>clúster</strong>. Abra la consola <strong>cloud shell</strong> y escriba lo siguiente: 
+                               <p> <strong>gcloud dataproc clusters create example-cluster --region europe-west6 --enable-component-gateway --master-boot-disk-size 50GB --worker-boot-disk-size 50GB </strong></p>
+                                Asegurese de que esta en estado <strong>'En ejecución'</strong> en el apartado <strong>Clústeres de Dataproc. </strong><i class="fas fa-file-alt"></i></li>
+                            <li>Acceda al apartado <strong>Jobs</strong> dentro de la sección <strong>Data proc</strong>, dentro seleccione <strong>create a new job</strong>.
+                                Rellene los siguientes campos de la forma:<i class="fas fa-chart-bar"></i></li>
+                                <ol class="lead">
+                                    <li><strong>Region</strong>: europe-west6</li>
+                                    <li><strong>Cluster</strong>: example-cluster</li>
+                                    <li><strong>JobType</strong>: PySpark</li>
+                                    <li><strong>Main Python file:</strong> 
+                                        <p><strong>gs://BUCKET/PYTHON. Siendo BUCKET el nombre del cluster creado y python el nombre del fichero python que se quiere ejecutar</p></strong>
+                                    </li>
+                                    <li>De al botón <strong>submit</strong>.</li>
+                                </ol>
+                                <li>Vea los resultados en consola</strong><i class="fas fa-search"></i></li>
+
+                        </ol>
+                        </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="text-center">
+                    <img src="images/githubLogo.jpg" alt="Github Logo" class="img-fluid rounded" style="max-width: 200px; margin-bottom: 20px;">
+                    <p class="lead mb-4">Explora y contribuye al desarrollo de Statedata en nuestro repositorio de GitHub.</p>
+                    <a href="https://github.com/JaimeJimeenez/StateData" target="_blank" class="btn btn-dark btn-lg" role="button" aria-pressed="true">
+                        <i class="fab fa-github"></i> Ir a GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Statedata. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-pzjw8m+ua/CrLl7oU8eLOAjjWnDAI1n1eb5plxCJ2oez9ENQpaA0eXYz5gkXJbik" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
