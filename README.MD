@@ -12,7 +12,7 @@ Existen cinco scripts que se han generado, cada uno con el propósito de obtener
     3. oldNewPropertyAnalysis.py: se realiza un estudio para poder obtener la tendencia de compras con respecto al estado de la propiedad (viejo o nuevo)
     4. pricesAnalysis.py: se obtiene el precio promedio a lo largo de los años de los 6 distritos anteriormente obtenidos 
     5. typePropertyAnalysis.py: obtenemos la cantidad de transacciones de bienes inmuebles que se han realizado con respecto al tipo de vivienda 
-###Aplicación Web
+### Aplicación Web
 Una vez generados los scripts y ejecutados en la plataforma Google Cloud se obtienen las gráficas, tanto de resultados como de rendimiento, ubicados en la carpeta images.
 Se ha utilizado HTML y CSS para poder generar una aplicación web que muestre de manera detallada esos resultados así como una descripción y unas conclusiones obtenidas.
 
