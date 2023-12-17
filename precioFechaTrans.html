@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio de Mercado Inmobiliario - Statedata</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #495057;
+        }
+
+        header {
+            background: url('images/tu_imagen.jpg') center/cover no-repeat;
+            color: #000000;
+            text-align: center;
+            padding: 1em 0;
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .intro-section {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            margin-top: 20px;
+            margin-left: 200px;  /* Ajusta el margen izquierdo según tus preferencias */
+            margin-right: 200px; /* Ajusta el margen derecho según tus preferencias */
+        }
+
+        .intro-section h2 {
+            font-size: 2em;
+            color: #555555;
+   
+        }
+
+        .district-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-left: 30px;  /* Ajusta el margen izquierdo según tus preferencias */
+            margin-right: 30px; /* Ajusta el margen derecho según tus preferencias */
+        }
+
+        .district-box {
+            width: 18%;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .district-box img {
+            width: 100%;
+            height: 70%;
+            object-fit: cover;
+            border-bottom: 2px solid #000000;
+        }
+
+        .district-box h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: #575757;
+        }
+
+        .study-section {
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 40px auto;
+            padding: 40px;
+            max-width: 800px;
+        }
+
+        .study-section h2 {
+            margin-top: 0;
+            font-size: 2.5em;
+            color: #757575;
+        }
+
+        .study-section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .study-section img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        .section-heading {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .additional-section {
+            background-color: #f8f9fa;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 40px auto;
+            padding: 40px;
+            max-width: 800px;
+        }
+
+        .additional-section h2 {
+            margin-top: 0;
+            font-size: 2.5em;
+            color: #737373;
+        }
+
+        .additional-section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .separation-line {
+            border-top: 0.5px solid #000000;
+            margin: 20px 0;
+        }
+
+        .custom-button {
+            width: 100%;
+            height: 200px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2em; /* Reducido el tamaño de la fuente */
+            font-weight: bold;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .custom-button:hover {
+            transform: scale(1.05);
+        }
+                /* Estilos aquí... */
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1><a href="index.html" style="color: black;">StateData</a></h1>
+            <p>Análisis del Mercado Inmobiliario</p>
+        </div>
+    </header>
+    
+    <hr class="separation-line">
+
+    <div class="intro-section">
+        <h2>Estudio de Precios por Fecha Transacción</h2>
+        <p>
+            Se ha creado una gráfica que representa la evolución de los precios en los condados seleccionados a lo largo 
+            del tiempo. Se observa que entre los años 2015 y 2020, el mercado ha experimentado un considerable dinamismo.
+        </p>
+    </div>
+
+
+    <div class="container study-section">
+        <h2 class="text-center">Gráfico del estudio</h2>
+
+        <img src="images/precioFechaTrans.jpg" alt="Estudio de Precios por Distrito">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">Gráficos de Rendimiento</h2>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/usoCPU4.jpg" alt="Imagen 1" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="images/bytesRed4.jpg" alt="Imagen 2" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="images/paquetesRed4.jpg" alt="Imagen 3" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="images/bytesDisco4.jpg" alt="Imagen 4" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="section-heading">
+        <h2>Otras Secciones</h2>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="precioDistrito.html" class="custom-button" style="background-image: url('images/distritos.jpg');">
+                    Estudio de Precios por Distrito
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="preciosTipoPorpiedad.html" class="custom-button" style="background-image: url('images/tipoPropiedades.jpg');">
+                    Estudio de Precios por Tipo de Propiedad
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="precioFechaTrans.html" class="custom-button" style="background-image: url('images/fechaTransaccion.jpg');">
+                    Estudio de Tendencias por Fecha de Transacción
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="precioAntiguedad.html" class="custom-button" style="background-image: url('images/antiguedad.jpg');">
+                    Comparación de Precios por Antigüedad
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Statedata. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-pzjw8m+ua/CrLl7oU8eLOAjjWnDAI1n1eb5plxCJ2oez9ENQpaA0eXYz5gkXJbik" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
